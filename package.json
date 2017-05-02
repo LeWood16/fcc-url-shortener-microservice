@@ -1,5 +1,5 @@
 {
-  "name": "url shortener microservice",
+  "name": "url_shortener_microservice",
   "version": "1.0.0",
   "description": "a URL shortener microservice app for freeCodeCamp",
   "main": "index.html",
@@ -15,10 +15,10 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
-    "moment": "^2.18.1"
+    "goo.gl": "^0.1.4"
   },
-  "engines" : { 
-    "node" : "^4.3.1",
-    "npm" : "^4.5.0"
+  "engines": {
+    "node": "^4.3.1",
+    "npm": "^4.5.0"
   }
 }
