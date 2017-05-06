@@ -10,10 +10,10 @@ in the JSON response.
     -pass in parameter, returns whether or not in proper format
     -pass in parameter in proper format, returns json 
     {"original_url": "paramater_url"}
-    -pass in parameter in proper format, returns json 
+    X-pass in parameter in proper format, returns json 
     {"original_url": "paramater_url", "short_url": "short_version_of_parameter_url"}
 
--If I pass an invalid URL that doesn't follow the valid http://www.example.com 
+X-If I pass an invalid URL that doesn't follow the valid http://www.example.com 
 format, the JSON response will contain an error instead.
     -
     
